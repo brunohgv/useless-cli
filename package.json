@@ -1,0 +1,19 @@
+{
+  "name": "useless-cli",
+  "version": "1.0.0",
+  "description": "Useless CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
